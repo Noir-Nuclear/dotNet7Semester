@@ -46,6 +46,7 @@ namespace Serialization
     {
         public string serialize<T>(T input)
         {
+            //todo: если метод вызывать на ождном и том же типе 1000 000 раз, то 1000 000 раз будет создаваться сериализатор, попробуйте закешировать его в поле класса
             XmlSerializer formatter = new XmlSerializer(typeof(T));
             String result;
             using (MemoryStream stream = new MemoryStream())
@@ -63,6 +64,7 @@ namespace Serialization
 
         public T deserialize<T>(string serializableStr)
         {
+            //todo: если метод вызывать на ождном и том же типе 1000 000 раз, то 1000 000 раз будет создаваться сериализатор, попробуйте закешировать его в поле класса
             XmlSerializer serializer = new XmlSerializer(typeof(T));
             StringReader stringReader = new StringReader(serializableStr);
             return (T)serializer.Deserialize(stringReader);
@@ -75,6 +77,8 @@ namespace Serialization
         {
             Serializer serializer;
             String serializationType = Console.ReadLine(), serializableText = Console.ReadLine();
+            //todo: есть такой паттерн - цепочка отвественностей. смысл - инкапсулировать выбор сериализации внутри класса сериализации
+            //todo: т.е. вместо свитча в мейне, научить сериализатор отвечать на вопрос, а моржет ли он работать с таким типом сериалзцции
             switch (serializationType)
             {
                 case "Json":
