@@ -1,0 +1,8 @@
+D:\MyFolder\Projects\C#\HttpClient\HttpClient\bin\Debug\HttpClient.exe.config
+D:\MyFolder\Projects\C#\HttpClient\HttpClient\bin\Debug\HttpClient.exe
+D:\MyFolder\Projects\C#\HttpClient\HttpClient\bin\Debug\HttpClient.pdb
+D:\MyFolder\Projects\C#\HttpClient\HttpClient\obj\Debug\HttpClient.csprojResolveAssemblyReference.cache
+D:\MyFolder\Projects\C#\HttpClient\HttpClient\obj\Debug\HttpClient.csproj.CoreCompileInputs.cache
+D:\MyFolder\Projects\C#\HttpClient\HttpClient\obj\Debug\HttpClient.exe
+D:\MyFolder\Projects\C#\HttpClient\HttpClient\obj\Debug\HttpClient.pdb
+D:\MyFolder\Projects\C#\HttpClient\HttpClient\bin\Debug\Newtonsoft.Json.dll
