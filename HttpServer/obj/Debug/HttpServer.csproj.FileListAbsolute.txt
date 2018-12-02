@@ -1,0 +1,8 @@
+D:\MyFolder\Projects\C#\HttpServer\HttpServer\bin\Debug\HttpServer.exe.config
+D:\MyFolder\Projects\C#\HttpServer\HttpServer\bin\Debug\HttpServer.exe
+D:\MyFolder\Projects\C#\HttpServer\HttpServer\bin\Debug\HttpServer.pdb
+D:\MyFolder\Projects\C#\HttpServer\HttpServer\bin\Debug\Newtonsoft.Json.dll
+D:\MyFolder\Projects\C#\HttpServer\HttpServer\obj\Debug\HttpServer.csprojResolveAssemblyReference.cache
+D:\MyFolder\Projects\C#\HttpServer\HttpServer\obj\Debug\HttpServer.csproj.CoreCompileInputs.cache
+D:\MyFolder\Projects\C#\HttpServer\HttpServer\obj\Debug\HttpServer.exe
+D:\MyFolder\Projects\C#\HttpServer\HttpServer\obj\Debug\HttpServer.pdb
